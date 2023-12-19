@@ -44,7 +44,7 @@ def main():
     print("List 10 last live sessions:")
     print("Choose your live session!")
     for i, name in enumerate(module_name[-10:][::-1]):
-        print(f"{i+1}. {name}, id={module_id[-(i+1)]}")
+        print(f"{i+1}. {name}")
 
     try:
         option = int(input("Type a number... "))
