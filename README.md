@@ -39,11 +39,11 @@ Note:
       ![Report Zoom](img/image-1.jpg)
       5. Klik export, nanti akan terdownload dan rename menjadi `participants.csv`
       ![Export data](img/image-1.png)
-   2. permit.csv, berisi data perizinan siswa
+   2. permit.csv, berisi data perizinan siswa<br>
       ![Permit data](img/image-2.png)
       Kalau tidak ada yang izin, bisa dibiarkan kosong saja
       ![Permit data empty](img/image-3.png)
-   3. students.csv, berisi data siswa keseluruhan
+   3. students.csv, berisi data siswa keseluruhan<br>
       ![Students data](img/image-4.png)
 3. Buka CMD di folder yang sama
    ![CMD](img/image-5.png)
@@ -54,11 +54,11 @@ Note:
    ![Login](img/image-7.png)
    Apabila berhasil, maka akan ditanya apakah ingin menyimpan token tersebut atau tidak. Apabila tidak (n), maka pada saat menjalan script ini di kemudian hari akan diminta untuk login kembali. Apabila iya (y), maka pada saat menjalankan script ini di kemudian hari akan mencoba untuk menggunakan token yang sudah tersimpan, namun jika sudah kadaluarsa akan diminta untuk login kembali lagi.
    ![Save token](img/image-8.png)
-6. Pilih course
+6. Pilih course<br>
    ![Course selection](img/image-9.png)
    Contoh: 1<br>
    lalu `enter`
-7. Pilih live session yang sesuai dengan daftar hadir
+7. Pilih live session yang sesuai dengan daftar hadir<br>
    ![Live Session selection](img/image-10.png)
    Contoh: 3<br>
    lalu `enter`
