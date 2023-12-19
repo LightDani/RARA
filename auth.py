@@ -52,7 +52,7 @@ def get_api_token():
 
 
 def set_api_token(api_token):
-    option = input("Do you want to save your token? (y/n) ")
+    option = input("Do you want to save your credential? (y/n) ")
     if option.lower() == "y":
         set_password("rakamin", "api_token", api_token)
         print("Successfully saved token.")
