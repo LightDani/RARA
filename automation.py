@@ -41,9 +41,9 @@ def main():
     )
 
     clear_console()
-    print("List 6 last live sessions:")
+    print("List 10 last live sessions:")
     print("Choose your live session!")
-    for i, name in enumerate(module_name[::-1]):
+    for i, name in enumerate(module_name[-10:][::-1]):
         print(f"{i+1}. {name}, id={module_id[-(i+1)]}")
 
     try:
