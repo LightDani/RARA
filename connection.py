@@ -14,4 +14,4 @@ def get_request(url, headers=None, api_token=None):
 
 def patch_request(url, api_token, payload=None):
     headers = {"Authorization": api_token}
-    patch(url=url, json=payload, headers=headers)
+    patch(url=url, data=payload, headers=headers)
