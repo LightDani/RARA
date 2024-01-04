@@ -13,5 +13,5 @@ def get_request(url, headers=None, api_token=None):
 
 
 def patch_request(url, api_token, payload=None):
-    headers = {"Authorization": api_token}
+    headers = {"Authorization": f"Bearer {api_token}"}
     patch(url=url, data=payload, headers=headers)
