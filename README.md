@@ -45,7 +45,7 @@ Note:
       
       ![Export data](img/image-1.png)
    
-   2. permit.csv, berisi data perizinan siswa
+   2. permit.csv, berisi data perizinan siswa. Untuk memudahkan, aku buat [form](https://forms.gle/ATAgLgezLGSz4gKi6) sendiri
    
       ![Permit data](img/image-2.png)
    
@@ -88,3 +88,6 @@ Note:
    lalu `enter`
 8. Let the script does his job<br>
    Script nya akan mengecek terlebih dahulu apakah semua data student sudah ada di LMS atau belum. Jika belum, maka script akan berhenti. Aku tidak tau kenapa dan mengapa tapi data pada LMS biasanya akan lengkap dalam waktu sehari setelah live session.
+
+
+Masih banyak yang bisa diimprove, feel free to contact me. Cheers
