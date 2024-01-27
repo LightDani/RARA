@@ -19,9 +19,14 @@ def get_data():
     participants_data["User Email"] = participants_data["User Email"].apply(
         lambda x: x.lower()
     )
-    participants_data = participants_data[
-        participants_data["Total Duration (Minutes)"] > 30
-    ][["User Email"]]
+    duration = (
+        "Total Duration (Minutes)"
+        if "Total Duration (Minutes)" in participants_data.columns
+        else "Duration (Minutes)"
+    )
+    participants_data = participants_data[participants_data[duration] > 30][
+        ["User Email"]
+    ]
     absent = [
         email
         for email in students_data["Email"]
