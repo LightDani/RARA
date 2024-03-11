@@ -44,7 +44,7 @@ Note:
       6. Klik export, nanti akan terdownload dan rename menjadi `participants.csv`
       
       ![Export data](img/image-1.png)
-   
+   *note: pastikan zoom dibuat dengan syarat hanya peserta yang mendaftar yang bisa masuk dan pastikan student menggunakan email yang sama dengan yang terdaftar.
    2. permit.csv, berisi data perizinan siswa. Untuk memudahkan, aku buat [form](https://forms.gle/ATAgLgezLGSz4gKi6) sendiri
    
       ![Permit data](img/image-2.png)
