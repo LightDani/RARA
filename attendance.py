@@ -17,7 +17,7 @@ def get_data():
 
     students_data.Email = students_data.Email.apply(lambda x: x.lower())
     participants_data["User Email"] = participants_data["User Email"].apply(
-        lambda x: x.lower()
+        lambda x: "" if str(x) == "nan" else x.lower()
     )
     duration = (
         "Total Duration (Minutes)"
@@ -47,9 +47,11 @@ def get_data():
             "kerabat_meninggal",
         ]
         permit_data.Reason = permit_data.Reason.apply(
-            lambda x: "_".join(x.split()).lower()
-            if "_".join(x.split()).lower() in reasons
-            else None
+            lambda x: (
+                "_".join(x.split()).lower()
+                if "_".join(x.split()).lower() in reasons
+                else None
+            )
         )
     except:
         pass
